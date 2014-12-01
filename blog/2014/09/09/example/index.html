@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width initial-scale=1">
 
-  <title>Swift</title>
-  <meta name="description" content="A clean minimal Theme for Jekyll">
+  <title>Example</title>
+  <meta name="description" content="This is a sample post to denote the features of Swift theme . The theme consists of various share plugins , feedburner support , sitemap generation etc. You ...">
   <meta name="google-translate-customization" content="b9870a0c7376df54-aa35852016e6a5cc-ga0a0d80f6c171f17-e"></meta>
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://maangalabs.com/">
+  <link rel="canonical" href="http://maangalabs.com/blog/2014/09/09/example">
   <link href="/favicon.ico" rel="icon">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="alternate" type="application/atom+xml" title="Swift" href="http://maangalabs.com/feed.xml" />
@@ -94,55 +94,117 @@
           </div>
     </div>
     <div class="col-md-12">
-                <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-7">
-              <!-- Blog Post Links -->
-              <div class="blog-post-small">
-                
-                  <h3><a href="/blog/2014/09/09/example">Example</a></h3>
-                  <p><i class="fa fa-calendar"></i> &nbsp;Sep 9, 2014 | 
-         <a href="/blog/2014/09/09/example#disqus_thread">Comments</a>
-        </p>
-                  
-                    <p><p>This is a sample post to denote the features of Swift theme . The theme consists of various share plugins , feedburner support , sitemap generation etc. You can configure the blog in similar way you use a word press blog</p>
+        <div class="row">
+	<div class="col-md-1"></div>
+	<div class="col-md-10">
 
+	  	
+	    <h1>Example</h1>
+	    <div id="google_translate_element" style="padding-right: 27px;float: left;"></div><script type="text/javascript">
+			function googleTranslateElementInit() {
+  				new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+				}
+		</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        
+	    <p class="post-meta">Sep 9, 2014</p>
 
-                      <br><br>
-                      <a href="/blog/2014/09/09/example"class="btn btn-primary btn-sm">Read More</a>
-                    </p>
-                  
-                
-              </div>
-              <!-- End Blog Post Links -->
-            </div>
-            <!-- SideBar -->
-            <div class="col-md-3">
-              
-               <div class="panel panel-primary" style="margin-top:10%;">
-                  <div class="panel-body">
-                    
-                     <form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=maangalabs', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
-                        <div class="input-group">
-                        <input type="text" class="form-control" name="email"/>
-                        <input type="hidden" value="maangalabs" name="uri"/>
-                        <input type="hidden" name="loc" value="en_US"/>
-                        <span class="input-group-btn">
-                          <input type="submit" class="btn btn-primary" value="Subscribe Us" />
-                        </span>
-                      </div>
-                      <p><a href="http://feeds.feedburner.com/maangalabs"><img style="margin-left:auto;margin-right:auto;" src="http://feeds.feedburner.com/~fc/maangalabs?bg=007196&amp;fg=FFFFFF&amp;anim=1" height="26" width="88" style="border:1;" alt="" /></a></form>
+	   
+	  	<article class="blog-post-small blog-post-content">
+	    	<p>This is a sample post to denote the features of Swift theme . The theme consists of various share plugins , feedburner support , sitemap generation etc. You can configure the blog in similar way you use a word press blog</p>
 
-                  </div>
+<!-- more -->
 
-                </div>
-                
-            </div>
-            <!-- End Sidebar -->
-            <div class="col-md-1"></div>
-         </div>
+<p><strong>Basic</strong></p>
 
+<p>Neque porro <em>quisquam</em> est, qui <strong>dolorem</strong> ipsum, quia <strong><em>dolor</em></strong> sit, amet, <a href="http://cjdns.info/">consectetur</a>, adipisci velit.</p>
 
+<ul>
+  <li>lorem</li>
+  <li>ipsum</li>
+</ul>
+
+<ol>
+  <li>dolor</li>
+  <li>sit</li>
+</ol>
+
+<p><strong>Blockquote</strong></p>
+
+<blockquote>
+  <p>They who can give up essential liberty to obtain a little temporary safety, deserve neither liberty nor safety.</p>
+
+  <p><em>Benjamin Franklin</em></p>
+</blockquote>
+
+<p><strong>Code</strong></p>
+
+<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="k">static</span> <span class="kt">void</span> <span class="nf">asyncEnabled</span><span class="p">(</span><span class="n">Dict</span><span class="o">*</span> <span class="n">args</span><span class="p">,</span> <span class="kt">void</span><span class="o">*</span> <span class="n">vAdmin</span><span class="p">,</span> <span class="n">String</span><span class="o">*</span> <span class="n">txid</span><span class="p">,</span> <span class="k">struct</span> <span class="n">Allocator</span><span class="o">*</span> <span class="n">requestAlloc</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">struct</span> <span class="n">Admin</span><span class="o">*</span> <span class="n">admin</span> <span class="o">=</span> <span class="n">Identity_check</span><span class="p">((</span><span class="k">struct</span> <span class="n">Admin</span><span class="o">*</span><span class="p">)</span> <span class="n">vAdmin</span><span class="p">);</span>
+    <span class="kt">int64_t</span> <span class="n">enabled</span> <span class="o">=</span> <span class="n">admin</span><span class="o">-&gt;</span><span class="n">asyncEnabled</span><span class="p">;</span>
+    <span class="n">Dict</span> <span class="n">d</span> <span class="o">=</span> <span class="n">Dict_CONST</span><span class="p">(</span><span class="n">String_CONST</span><span class="p">(</span><span class="s">&quot;asyncEnabled&quot;</span><span class="p">),</span> <span class="n">Int_OBJ</span><span class="p">(</span><span class="n">enabled</span><span class="p">),</span> <span class="nb">NULL</span><span class="p">);</span>
+    <span class="n">Admin_sendMessage</span><span class="p">(</span><span class="o">&amp;</span><span class="n">d</span><span class="p">,</span> <span class="n">txid</span><span class="p">,</span> <span class="n">admin</span><span class="p">);</span>
+<span class="p">}</span></code></pre></div>
+
+<p><strong>Image</strong></p>
+
+<p><img src="http://media.vector4free.com/normal/flat-banner-vectors.jpg" alt="ThisIsADemoPhoto" /></p>
+
+	  	</article>
+	  	
+	  	
+	  	
+<!-- Output author details if some exist. -->
+
+<div class="author_block col-md-12">
+  <div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-2">
+      <p>Written by <strong>Pranav Raj S</strong></p> 
+  </div>
+  <div class="col-md-3">    
+        <ul>
+          <li><a href="http://github.com/pranavrajs" target="_blank"><i class="fa fa-github"></i></a></li>
+          <li><a href="http://facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="http://twitter.com/pranavrajs" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="http://in.linkedin.com/in/pranavrajs" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="mailto:pranavrajs@gmail.com" target="_blank"><i class="fa fa-send-o"></i></a></li>
+        </ul>
+    </div>
+    <div class="col-md-4">
+      
+        
+        <div class="col-md-12">
+          <a class= "btn-primary btn-large" style="padding:10px; line-height: 44px; margin-left:-24px; text-decoration:none;" href = "//github.com/pranavrajs/swift" target="_blank">Download Source</a>
+          <iframe style = "line-height:44px"src="http://ghbtns.com/github-btn.html?user=pranavrajs&repo=swift&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe> 
+        </div>
+        
+
+    </div>
+    <div class="col-md-2"></div>
+    </div>
+</div>
+   
+ 
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+       var disqus_shortname = 'maangalabscom'; // required: replace example with your forum shortname 
+         (function() {
+             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+             dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+         })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+    <ul class="pager">
+      
+      <li><a href="/blog/archives">Blog Archives</a></li>
+      
+    </ul>
+	</div>
+	<div class="col-md-1"></div>
+</div>
     </div>
     <div class="col-md-12 share-div">
         <div class="col-md-1"></div>
