@@ -5,7 +5,7 @@ email: pranav@maangalabs.com
 baseurl: "/swift/" # the subpath of your site, e.g. /blog/
 url: "http://pranav.maangalabs.com" # the base hostname & protocol for your site
 #favicon
-favicon: favicon.ico
+favicon: favicon.png
 
 #feed
 feedburner_username: maangalabs
