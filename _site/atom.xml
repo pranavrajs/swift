@@ -3,10 +3,10 @@
   <channel>
     <title>Swift</title>
     <description>A clean minimal Theme for Jekyll</description>
-    <link>http://maangalabs.com/</link>
-    <atom:link href="http://maangalabs.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 01 Dec 2014 15:36:02 +0530</pubDate>
-    <lastBuildDate>Mon, 01 Dec 2014 15:36:02 +0530</lastBuildDate>
+    <link>http://pranav.maangalabs.com/swift/</link>
+    <atom:link href="http://pranav.maangalabs.com/swift/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 01 Dec 2014 21:35:49 +0530</pubDate>
+    <lastBuildDate>Mon, 01 Dec 2014 21:35:49 +0530</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
     
       <item>
@@ -52,8 +52,8 @@
 &lt;p&gt;&lt;img src=&quot;http://media.vector4free.com/normal/flat-banner-vectors.jpg&quot; alt=&quot;ThisIsADemoPhoto&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Sep 2014 22:37:00 +0530</pubDate>
-        <link>http://maangalabs.com/blog/2014/09/09/example</link>
-        <guid isPermaLink="true">http://maangalabs.com/blog/2014/09/09/example</guid>
+        <link>http://pranav.maangalabs.com/swift/blog/2014/09/09/example</link>
+        <guid isPermaLink="true">http://pranav.maangalabs.com/swift/blog/2014/09/09/example</guid>
         
         
         <category>example</category>

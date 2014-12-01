@@ -3,7 +3,7 @@ title: Swift
 description: A clean minimal Theme for Jekyll
 email: pranav@maangalabs.com
 
-url: "http://pranav.maangalabs.com/swift" # the base hostname & protocol for your site
+url: "http://pranav.maangalabs.com/swift/" # the base hostname & protocol for your site
 #favicon
 favicon: favicon.png
 
