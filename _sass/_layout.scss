@@ -1,0 +1,164 @@
+.blog-theme-class {
+  margin-top:0.3%;
+  padding:3%;
+  background:#008cba;
+  .jumb-bot {
+    background:#008cba;
+    
+  }
+  .jumbotron{
+    background:#008cba;
+    h1 {
+      color :#fff;
+    }
+    p{
+      color:#fff;
+    }
+  }
+}
+.blog-post-small {
+  border-bottom: #008CBA 1px dashed;
+  text-align: justify;
+  padding: 10px;
+  p {
+    font-size: 14.43px;
+  }
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.jumb-bot {
+}
+
+.jumb-bot-jumbu {
+  margin: 0px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  background: #eee;
+  p {
+    padding-top: 13px;
+  }
+}
+
+.left-syms {
+  font-size: 20px;
+  li a span {
+    font-size: 12.5px;
+    display: none;
+  }
+}
+
+.listgroup-div {
+  margin-top: 10px;
+}
+.author_block{
+  padding:2%;
+  p{
+    line-height: 44px;
+    font-size: 13px;
+  }
+  ul{
+    display: block;
+    float:left;
+    li{
+      float:left;
+      display:block;
+      font-size: 24px;
+      padding: 5px;
+      a{
+        text-decoration:none;
+      }
+    }
+  }
+}
+.blog-post-content {
+  font-size: 14px;
+  img{
+    max-width:100%;
+    border:#eee 2px solid;
+  }
+}
+.twitter_share{
+  float:left;
+  padding:10px;
+}
+.fb_share{
+  float:left;
+  padding:10px;
+}
+.linkedin_share{
+  float:left;
+  padding:10px;
+  padding-left:0px;
+}
+.g_share{
+  float:left;
+  padding:10px;
+}
+.footer {
+  a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #fff;
+    &:after {
+      content: "";
+    }
+  }
+  h4 {
+    color: #fff;
+  }
+}
+.share-div{
+  padding:3%;
+  padding-left:1%;
+  padding-top:1%;
+}
+.recent_posts li {
+  display: block;
+  color: #fff;
+}
+
+.footer {
+  background: #222222;
+  margin-top: 10px;
+  ul {
+    margin-left: 0px;
+    padding-left: 0px;
+    li a:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.end_footer {
+  background: #222222;
+}
+
+.footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: #2b2b2b 1px solid;
+}
+
+.end_footer p {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #fff;
+  text-align: left;
+}
+
+.footer-logo {
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
+  padding: 0px;
+}
+
+@media screen and (max-width: 480px) {
+  .left-syms li a span {
+    display: block;
+  }
+}

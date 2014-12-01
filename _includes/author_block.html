@@ -1,0 +1,57 @@
+{% assign author = site.authors[page.author] %}
+<!-- Output author details if some exist. -->
+{% if author %}
+<div class="author_block col-md-12">
+  <div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-2">
+      <p>Written by <strong>{{ author.display_name }}</strong></p> 
+  </div>
+  <div class="col-md-3">    
+        <ul>
+          <li><a href="http://github.com/{{ author.github }}" target="_blank"><i class="fa fa-github"></i></a></li>
+          <li><a href="http://facebook.com/{{ author.facebook }}" target="_blank"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="http://twitter.com/{{ author.twitter }}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="http://in.linkedin.com/in/{{ author.linkedin }}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="mailto:{{author.email}}" target="_blank"><i class="fa fa-send-o"></i></a></li>
+        </ul>
+    </div>
+    <div class="col-md-4">
+      
+        {% if page.github_repo_username %}
+        <div class="col-md-12">
+          <a class= "btn-primary btn-large" style="padding:10px; line-height: 44px; margin-left:-24px; text-decoration:none;" href = "//github.com/{{ page.github_repo_username }}/{{page.github_repo}}" target="_blank">Download Source</a>
+          <iframe style = "line-height:44px"src="http://ghbtns.com/github-btn.html?user={{ page.github_repo_username }}&repo={{page.github_repo}}&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe> 
+        </div>
+        {% endif %}
+
+    </div>
+    <div class="col-md-2"></div>
+    </div>
+</div>
+{% endif %}   
+{% if page.comments %} 
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+       var disqus_shortname = '{{ site.disqus_short_name }}'; // required: replace example with your forum shortname 
+         (function() {
+             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+             dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+         })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{% endif %}
+    <ul class="pager">
+      {% if page.previous.url %}
+      <li class="previous"><a class="basic-alignment left"
+        href="{{page.previous.url}}" title="Previous Post:
+        {{page.previous.title}}">&laquo; {{page.previous.title}}</a></li>
+      {% endif %}
+      <li><a href="/blog/archives">Blog Archives</a></li>
+      {% if page.next.url %}
+      <li class="next"><a class="basic-alignment right" href="{{page.next.url}}"
+        title="Next Post: {{page.next.title}}">{{page.next.title}}
+        &raquo;</a></li>
+      {% endif %}
+    </ul>

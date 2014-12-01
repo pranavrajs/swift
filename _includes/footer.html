@@ -1,0 +1,50 @@
+<!-- Footer -->
+            <div class="row footer">
+              <div class="col-md-1"></div>
+              <div class="col-md-10">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <h4>Recent Posts</h4>
+                        <ul>
+                        {% for post in site.posts limit:4 %}
+                          <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+                        {% endfor %}
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-md-offset-1">
+                      <h4>Github Repositories</h4>
+                      <ul>
+                      {% if site.github_username %}
+                        <li>
+                          <a href="https://github.com/{{ site.github_username }}">
+                            <span class="username">{{ site.github_username }}</span>
+                          </a>
+                        </li>
+                        {% endif %}
+                      </ul>
+                    </div>
+                    <div class="col-md-3 col-md-offset-1">
+                    
+                      <h4>Follow Us Here</h4>
+                      {% if site.gplus_username %}
+
+                      <!-- Place this tag where you want the widget to render. -->
+                      <div class="g-page" data-width="273" data-href="//plus.google.com/u/0/{{ site.gplus_username }}" data-theme="dark" data-layout="landscape" style="border:0px;" data-rel="publisher"></div>
+
+                      <!-- Place this tag after the last widget tag. -->
+                      <script type="text/javascript">
+                        (function() {
+                          var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                          po.src = 'https://apis.google.com/js/platform.js';
+                          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                        })();
+                      </script>
+                      {% endif %}
+                        <!-- <img class="footer-logo" src="img/maanga-logo.png"/> -->
+                      
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-1"></div>
+            </div>
+          <!-- End Footer -->

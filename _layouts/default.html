@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+     {% include header.html %}
+
+    <div class="col-md-12 blog-theme-class">
+          <!-- Top Blog Header -->
+          <div class="row jumb-bot">
+            <div class="col-md-1"></div>
+            <div class="jumbotron jumb-bot-jumbu col-md-10">
+
+              <h1>{{site.title}}</h1>
+              <p>{{site.description}}</p>
+            </div>            
+            <div class="col-md-1"></div>
+          </div>
+    </div>
+    <div class="col-md-12">
+        {{ content }}
+    </div>
+    <div class="col-md-12 share-div">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          {% include sharer.html %}
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+    <div class="col-md-12">
+    {% include footer.html %}
+    </div>
+    <div class="col-md-12">
+    {% include endfooter.html %}
+    </div>
+    {% include include_js.html %}
+    
+  </body>
+
+</html>
